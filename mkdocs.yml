@@ -1,0 +1,52 @@
+site_name: ICESpark
+site_description: ICESpark is a distributed platform that can combine local commodity computers into a powerful environment that is ready for geospatial big data
+nav:
+  - Home: index.md
+  - Team: team.md
+  - Vignettes: vignettes.md
+  - Sponsor: sponsor.md
+theme: 
+  name: 'material'
+  palette:
+    primary: light blue
+    accent: green
+  icon:
+    logo: fontawesome/solid/globe-americas
+    repo: fontawesome/brands/github
+  font:
+    text: Lato
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.share
+markdown_extensions:
+  - admonition
+  - attr_list
+  - codehilite
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+plugins:
+  - search:
+      prebuild_index: true
+  - macros
