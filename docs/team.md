@@ -21,7 +21,7 @@ The ICESpark team is a unique, interdisciplinary group of researchers with compl
 </colgroup>
 <thead>
   <tr>
-    <th class="tg-c3ow"><img src="http://support.mme.wsu.edu/useful%20bits/Logos/WSU-Logo-Primary_CMYK.png" width="220"></th>
+    <th class="tg-c3ow"><img src="/images/wsu-logo.png" width="300"></th>
     <th class="tg-c3ow" colspan="4"><img src="https://www.usmd.edu/images/featured_institutions/new/UMCP-Color.png" width="220"></th>
   </tr>
 </thead>
